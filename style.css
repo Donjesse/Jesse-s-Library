@@ -1,0 +1,119 @@
+*{  
+margin:0;  
+padding:0;  
+box-sizing:border-box;  
+font-family:Arial,sans-serif;  
+}  
+  
+body{  
+background:#eef5ff;  
+color:#222;  
+}  
+  
+.hero{  
+background:linear-gradient(135deg,#4f8cff,#8b5cf6);  
+padding:40px 20px;  
+text-align:center;  
+color:white;  
+}  
+  
+.hero h1{  
+font-size:2.3rem;  
+margin-bottom:10px;  
+}  
+  
+.hero p{  
+margin-bottom:20px;  
+}  
+  
+#searchInput{  
+width:90%;  
+max-width:500px;  
+padding:12px;  
+border:none;  
+border-radius:10px;  
+margin-bottom:15px;  
+}  
+  
+#darkModeBtn{  
+padding:10px 15px;  
+border:none;  
+border-radius:10px;  
+cursor:pointer;  
+}  
+  
+.library{  
+padding:30px;  
+display:grid;  
+gap:25px;  
+}  
+  
+.card{  
+background:white;  
+border-radius:20px;  
+overflow:hidden;  
+box-shadow:0 4px 15px rgba(0,0,0,.1);  
+}  
+  
+.card-header{  
+height:160px;  
+display:flex;  
+align-items:flex-start;  
+padding:20px;  
+}  
+  
+.blue{  
+background:linear-gradient(135deg,#4facfe,#4a54ff);  
+}  
+  
+.green{  
+background:linear-gradient(135deg,#43cea2,#185a9d);  
+}  
+  
+.tag{  
+background:rgba(255,255,255,.2);  
+padding:8px 15px;  
+border-radius:20px;  
+color:white;  
+font-weight:bold;  
+}  
+  
+.card-body{  
+padding:20px;  
+}  
+  
+.card-body h2{  
+margin-bottom:10px;  
+}  
+  
+.card-body p{  
+color:#666;  
+margin-bottom:20px;  
+}  
+  
+.actions{  
+display:flex;  
+justify-content:space-between;  
+}  
+  
+.actions a{  
+text-decoration:none;  
+background:#6c63ff;  
+color:white;  
+padding:10px 15px;  
+border-radius:10px;  
+}  
+  
+.dark{  
+background:#121212;  
+color:white;  
+}  
+  
+.dark .card{  
+background:#1e1e1e;  
+color:white;  
+}  
+  
+.dark .card-body p{  
+color:#ccc;  
+}  
